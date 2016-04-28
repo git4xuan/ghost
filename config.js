@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: process.env.GHOST_URL,
+        urlssl: process.env.GHOST_URL,
         mail: {
             transport: 'SMTP',
             options: {
