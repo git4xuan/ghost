@@ -40,7 +40,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: process.env.GHOST_URL,
+        urlssl: process.env.GHOST_URL,
         forceAdminSSL: true,
         mail: {
             transport: 'SMTP',
